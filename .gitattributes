@@ -1,0 +1,32 @@
+# ==== 유니티 전용 파일들 ====
+*.meta          text eol=lf
+*.unity         text eol=lf
+*.asset         text eol=lf
+*.prefab        text eol=lf
+*.mat           text eol=lf
+*.anim          text eol=lf
+*.controller    text eol=lf
+
+# ==== C# 코드 및 스크립트 ====
+*.cs            text eol=crlf
+*.shader        text eol=crlf
+*.cginc         text eol=crlf
+*.hlsl          text eol=crlf
+
+# ==== 일반 텍스트 설정 파일 ====
+*.json          text eol=crlf
+*.xml           text eol=crlf
+*.txt           text eol=crlf
+*.csv           text eol=crlf
+
+# ==== 유닉스 스크립트 (쉘 스크립트는 lf 유지) ====
+*.sh            text eol=lf
+*.bash          text eol=lf
+
+# ==== 에디터 설정 ====
+.editorconfig   text eol=lf
+.gitattributes  text eol=lf
+.gitignore      text eol=lf
+
+# ==== 기본: 기타 파일은 자동 처리 ====
+*               text=auto
